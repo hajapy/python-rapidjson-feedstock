@@ -17,7 +17,7 @@ build:
   features:
     - vc10  # [win and py34]
     - vc14  # [win and py>34]
-  skip: True  # [py<34 or win]
+  skip: True  # [py27]
 
 requirements:
   build:
