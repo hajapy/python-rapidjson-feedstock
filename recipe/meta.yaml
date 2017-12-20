@@ -9,7 +9,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   git_url: https://github.com/lelit/python-rapidjson.git
-  git_rev: c119524995592838870b8d7eabdd78ef8bd764e3
+  git_rev: issue87
 
 build:
   number: 0
