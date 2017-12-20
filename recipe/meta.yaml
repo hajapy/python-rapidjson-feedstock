@@ -1,6 +1,5 @@
 {% set name = "python-rapidjson" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "14a607599f260cfccbb73e90d2e349cb64ad7a77a1b3d47c56bc8a9f96c9ba46" %}
+{% set version = "0.3.1a" %}
 {% set rapidjson_version = "1.1.0" %}
 
 package:
@@ -9,8 +8,8 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  git_url: https://github.com/lelit/python-rapidjson.git
+  git_rev: c119524995592838870b8d7eabdd78ef8bd764e3
 
 build:
   number: 0
